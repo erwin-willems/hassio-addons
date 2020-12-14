@@ -6,6 +6,7 @@
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "advanced": true,
   "startup": "system",
+  "url": "https://github.com/ews99/hassio-addons",
   "boot": "auto",
   "host_network": true,
   "options": {
@@ -65,5 +66,6 @@
         "mac": "str?"
       }
     ]
-  }
+  },
+  "image": "ews99/dnsmasq2-{arch}"
 }

@@ -5,6 +5,16 @@ CONFIG="/etc/dnsmasq.conf"
 
 bashio::log.info "Configuring dnsmasq..."
 
+if bashio::config.true 'log_queries'
+then
+    echo "log-queries" >> "${CONFIG}"
+fi
+
+if bashio::config.true 'log_dhcp'
+then
+    echo "log-dhcp" >> "${CONFIG}"
+fi
+
 # Add default forward servers
 for server in $(bashio::config 'dnsservers'); do
     echo "server=${server}" >> "${CONFIG}"

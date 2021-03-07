@@ -4,6 +4,7 @@
   "slug": "dnsmasq2",
   "description": "A simple DNS and DHCP server",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "privileged" : ["NET_ADMIN"],
   "advanced": true,
   "startup": "system",
   "url": "https://github.com/ews99/hassio-addons",

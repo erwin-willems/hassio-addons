@@ -36,6 +36,7 @@ profile dnsmasq flags=(attach_disconnected,mediate_deleted) {
     capability net_bind_service,
     capability setgid,
     capability setuid,
+    capability net_admin,
     capability dac_override,
     network inet raw,
     network inet6 raw,
@@ -45,6 +46,7 @@ profile dnsmasq flags=(attach_disconnected,mediate_deleted) {
     /etc/dnsmasq.conf rw,
     /run/*dnsmasq*.pid w,
     /run/dnsmasq/** rw,
+    /data/dnsmasq.leases rw,
     /tmp/* rw,
     /proc/* r,
   }

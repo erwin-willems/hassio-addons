@@ -1,4 +1,6 @@
 # Changelog
+## 1.2
+- Bugfix: Replaced apparmor.txt
 
 ## 1.1
 - Bugfix: "error ARP-cache injection failed: Operation not permitted", enabled dhcp-broadcast in dnsmasq.conf

@@ -7,7 +7,7 @@
   "privileged" : ["NET_ADMIN"],
   "advanced": true,
   "startup": "system",
-  "url": "https://github.com/ews99/hassio-addons",
+  "url": "https://github.com/erwin-willems/hassio-addons",
   "boot": "auto",
   "host_network": true,
   "options": {

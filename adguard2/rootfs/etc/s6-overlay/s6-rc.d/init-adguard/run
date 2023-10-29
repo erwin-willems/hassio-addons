@@ -77,9 +77,9 @@ for host in "${hosts[@]}"; do
       a2=$(( (0x$part) % 256 ))
 
       # fe80::/10 according to RFC 4193 -> Local link. Skip it
-      if (( (fd == 254) && ( (a2 & 192) == 128) )); then
-        continue
-      fi
+      # if (( (fd == 254) && ( (a2 & 192) == 128) )); then
+      #   continue
+      # fi
     else
       # IPv4
       part="${host%%.*}"

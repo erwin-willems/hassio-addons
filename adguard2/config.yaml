@@ -1,6 +1,6 @@
 ---
 name: AdGuard2 Home
-version: 4.8.17.1
+version: 15.0.7.1
 slug: adguard2
 description: Network-wide ads & trackers blocking DNS server
 url: https://github.com/erwin-willems/hassio-addons

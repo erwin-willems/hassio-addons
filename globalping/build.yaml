@@ -1,0 +1,8 @@
+---
+build_from:
+  aarch64: globalping/globalping-probe:latest
+  amd64: globalping/globalping-probe:latest
+  armv7: globalping/globalping-probe:latest
+codenotary:
+  base_image: codenotary@frenck.dev
+  signer: codenotary@frenck.dev

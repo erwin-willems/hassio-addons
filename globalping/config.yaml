@@ -1,0 +1,19 @@
+---
+name: AdGuard2 Home
+version: 1.0
+slug: globalping
+description: Network-wide ads & trackers blocking DNS server
+url: https://github.com/erwin-willems/hassio-addons
+codenotary: codenotary@frenck.dev
+panel_icon: mdi:shield-check
+startup: services
+homeassistant: 0.113.2
+arch:
+  - aarch64
+  - amd64
+  - armv7
+init: false
+auth_api: true
+host_network: true
+hassio_api: true
+hassio_role: manager

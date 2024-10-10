@@ -1,8 +1,8 @@
 ---
-name: AdGuard2 Home
+name: Globalping
 version: 1.0
 slug: globalping
-description: Network-wide ads & trackers blocking DNS server
+description: Monitor, debug and benchmark your internet infrastructure from a globally distributed network of probes
 url: https://github.com/erwin-willems/hassio-addons
 codenotary: codenotary@frenck.dev
 panel_icon: mdi:shield-check

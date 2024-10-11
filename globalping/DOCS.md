@@ -2,6 +2,22 @@
 
 Monitor, debug and benchmark your internet infrastructure from a globally distributed network of probes.
 
+## Configuration
+
+After installing this add-on, you can adopt your probe:
+- Go to https://dash.globalping.io/probes
+- Press the "Adopt a probe" button
+- Follow the wizzard to adopt your probe
+- The adoption code can be found in the logs of the addon:
+  ```
+    [2024-10-10 18:56:19] [WARN] [adoption-code] 
+                                              ,,         
+        __                                 o-°°|\_____/)
+    (___()'`; Your adoption code is: 123456  \_/|_)     )
+    /,    /`                                    \  __  / 
+    \\"--\\                                     (_/ (_/  
+  ```
+
 ## License
 
 MIT License
